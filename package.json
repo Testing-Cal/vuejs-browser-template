@@ -12,15 +12,16 @@
   },
   "dependencies": {
     "core-js": "^3.37.1",
+    "sonarqube-scanner": "^4.0.1",
     "vue": "^3.4.34",
     "vue-router": "^4.4.0",
-    "vuex": "^4.1.0",
-    "sonarqube-scanner": "^4.0.1"
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.9",
     "@babel/eslint-parser": "^7.24.8",
     "@vitejs/plugin-vue": "^5.1.0",
+    "@vitest/coverage-v8": "^2.0.5",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
@@ -28,9 +29,10 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "jsdom": "^24.1.1",
-    "sonarqube-scanner": "^4.0.1",
     "karma-sonarqube-unit-reporter": "0.0.23",
-    "vitest": "^2.0.4"
+    "sonarqube-scanner": "^4.0.1",
+    "vitest": "^2.0.4",
+    "vitest-sonar-reporter": "^2.0.0"
   },
   "eslintConfig": {
     "root": true,
