@@ -12,9 +12,20 @@ export default defineConfig({
         'vitest-sonar-reporter': 'sonar-report.xml',
     },
     coverage: {
-        reporters: 'lcov',
-    },
+      reporter: ['text','lcov', 'json', 'html'],
+        exclude: [
+          'node_modules/**',
+          'coverage',
+          'public/**',
+          '**/*{.,-}spec.ts',
+          '**/vite.config.ts',
+          '**/src/*.d.ts',
+          '**/src/main.ts'
+        ],
+        include: ['src/**/*.{js,vue}'],
+        extension: ['.ts', '.vue']
+    }
   },
    root: ".", //Define the root,
-  //  passWithNoTests: true
+   passWithNoTests: true
 });
