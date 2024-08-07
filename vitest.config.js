@@ -16,5 +16,5 @@ export default defineConfig({
     },
   },
    root: ".", //Define the root,
-   passWithNoTests: true
+  //  passWithNoTests: true
 });
