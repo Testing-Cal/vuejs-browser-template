@@ -1,27 +1,5 @@
-# hello-world
+# Vuejs-browser-template
 
-## Project setup
-```
-npm install
-```
+The files in this sample template are provided for guidance purposes only. They should be customized and adapted to meet the specific requirements of your application.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### test using Vitest
-npm run test
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
