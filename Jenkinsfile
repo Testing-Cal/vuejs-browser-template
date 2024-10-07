@@ -522,7 +522,7 @@ pipeline {
                                        withVault([configuration: vaultConfigurations, vaultSecrets: [vaultSecretConfigData]]) {
                                            def data = []
                                            for (secret in dockerEnv) {
-                                               sh "echo $secret"
+                                               sh "echo " + secret
                                            }
                                            for (keys in secretkeys) {
                                                env.keys = "$keys"
